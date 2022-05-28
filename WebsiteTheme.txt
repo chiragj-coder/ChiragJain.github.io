@@ -1,0 +1,10 @@
+--matisse: #1e6aa1;
+--rose-fog: #e3b9af;
+--puerto-rico: #44bbb3;
+--copper-rust: #924354;
+--log-cabin: #101310;
+--botticelli: #d3e0e8;
+--bermuda-gray: #788ca8;
+--old-gold: #cfb73d;
+--shocking: #e389b3;
+--old-rose: #bf7977;

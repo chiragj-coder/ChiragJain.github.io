@@ -1,6 +1,6 @@
 :root {
   --pink: #df3778;
-  --green: #29a598;
+  --green: #17582f;
   --yellow: #ffce3f;
 }
 
@@ -53,6 +53,7 @@ small {
 }
 a {
   color: var(--green);
+  font-weight: bold;
   transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
 }
 a:focus,
@@ -126,10 +127,11 @@ footer.row {
 }
 .navbar-brand span {
   color: var(--green);
+  font-weight: bold;
 }
 .navbar-brand:focus span,
 .navbar-brand:hover span {
-  text-decoration: underline;
+  /* text-decoration: underline; */
 }
 .navbar-nav > li > a,
 .navbar-nav > li > button {
@@ -138,11 +140,12 @@ footer.row {
   line-height: 36px;
   margin-top: 22px;
   text-transform: uppercase;
+  font-weight:bold;
 }
 .navbar-default .navbar-nav > .active > a {
   background-color: transparent;
   color: var(--green);
-  text-decoration: underline;
+  /* text-decoration: underline; */
 }
 .navbar-default .navbar-nav > li > a:focus,
 .navbar-default .navbar-nav > li > a:hover,
@@ -150,7 +153,7 @@ footer.row {
 .navbar-default .navbar-nav > .active > a:hover {
   background-color: transparent;
   /*color: #208479;*/
-  text-decoration: underline;
+  /* text-decoration: underline; */
 }
 .navbar-nav .outline.pink {
   margin: 20px 15px 0;
@@ -218,6 +221,8 @@ footer.row {
 }
 .jumbotron p {
   margin: 0;
+  font-weight: 600;
+  color: #ffbf00;
 }
 
 /* =====================
@@ -297,6 +302,7 @@ footer.row {
   padding: 12px 36px;
   text-transform: uppercase;
   transition: background-color 0.2s ease-in-out;
+  font-weight: 600;
 }
 .td-btn + .td-btn {
   margin-left: 6px;
