@@ -678,17 +678,17 @@ footer.row {
   position: relative;
 }
 .bg-star-y {
-  background: var(--yellow) url(../assets/imgs/yellow-star.png) fixed;
+  background: var(--yellow) url(assets/imgs/yellow-star.png) fixed;
   background-size: 60px;
   color: #fffefd;
 }
 .bg-star-g {
-  background: var(--green) url(../assets/imgs/green-star.png) fixed;
+  background: var(--green) url(assets/imgs/green-star.png) fixed;
   background-size: 60px;
   color: #fffefd;
 }
 .bg-honeycomb {
-  background: #fffefd url(../assets/imgs/honeycomb.png) fixed;
+  background: #fffefd url(assets/imgs/honeycomb.png) fixed;
   background-size: 24px;
 }
 .gray {
@@ -824,6 +824,9 @@ footer.row {
   }
   .flex-item.full > .text {
     padding: 0;
+  }
+  .h2{
+    font-size: 1.5rem;
   }
 }
 @media (max-width: 480px) {
